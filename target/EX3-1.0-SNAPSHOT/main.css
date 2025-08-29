@@ -1,0 +1,67 @@
+/* Toàn bộ body với màu LGBT gradient */
+body {
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 30px;
+    min-height: 100vh;
+}
+
+/* Container */
+form, .container {
+    background: rgba(0,0,0,0.4);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Đoạn văn */
+p {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+/* Label và span xuống dòng */
+label, span {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Input */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Nút */
+input[type="submit"], button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover, button:hover {
+    filter: brightness(1.2);
+}
